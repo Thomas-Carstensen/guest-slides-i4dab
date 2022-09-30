@@ -71,7 +71,7 @@ When working in a team
 ---
 
 
-## Data Tranfer Object (DTO)
+## Data Transfer Object (DTO)
 
 * Why do i need them?
   * Control data sent to a frontend application or a third party api
@@ -138,7 +138,7 @@ public class UserConfig : IEntityTypeConfiguration<User>
 ## Advanced Data Structure
 * Why?
   * Less scaffolding
-  * Resuable code
+  * Resusable code
   * Meta data
 
 <!-- .element style="display: flex;" -->
@@ -182,7 +182,7 @@ Code demo
 Context.Attach <!-- .element style="text-align: left;" -->
 
 ```csharp
-_context.Entry(entity).Property(x => x.CreatedOn).IsModified = false;
+ _context.Attach(entity);
 ```
 <!-- .element style="font-size: 16px;" -->
 
