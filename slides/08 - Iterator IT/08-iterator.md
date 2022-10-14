@@ -65,9 +65,9 @@ When working in a team
 * Merge conflicts in the Snapshot file
 * How to handle the conflict?
     1. Abort the merge
-    2. Rollback the lastest migration
+    2. Rollback the migration on the destination branch
     3. Commit the rollback to git
-    4. Merge the two branches and apply you migration again
+    4. Merge the two branches and apply your migration again
 ---
 
 
